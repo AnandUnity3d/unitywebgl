@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | TestwebGL</title>
@@ -57,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/game.loader.js";
+      var loaderUrl = buildUrl + "/unity.loader.js";
       var config = {
-        dataUrl: buildUrl + "/game.data.gz",
-        frameworkUrl: buildUrl + "/game.framework.js.gz",
-        codeUrl: buildUrl + "/game.wasm.gz",
+        dataUrl: buildUrl + "/unity.data.gz",
+        frameworkUrl: buildUrl + "/unity.framework.js.gz",
+        codeUrl: buildUrl + "/unity.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "idc",
         productName: "TestwebGL",
